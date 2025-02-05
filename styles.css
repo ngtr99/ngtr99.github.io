@@ -150,15 +150,20 @@ footer {
         font-size: 0.4rem;
     }
     .nav-button-services, .nav-button-gallery, .nav-button-contact {
-        padding: 5px 10px;
-        font-size: 15px;
-    }
-    .services {
-        margin-left: -20%;
+        font-size: 12px;
+        margin: 0 auto;
+        padding: 0%;
+        display: inline-block;
     }
     .nav-button-home {
         padding: 5px 10px;
-        font-size: 15px;
+        font-size: 12px;
+    }
+    .services {
+        margin: 0 auto;
+    }
+    .item, .price, .categories {
+        font-size: 12px;
     }
 }
 
@@ -167,29 +172,36 @@ footer {
         font-size: 0.5rem;
     }
     .nav-button-services, .nav-button-gallery, .nav-button-contact {
+        font-size: 15px;
+        margin: 0 auto;
+        padding: 0%;
+        display: inline-block;
+    }
+    .nav-button-home {
         padding: 5px 10px;
         font-size: 15px;
     }
-    .services {
-        margin-left: -20%;
+    .item, .price, .categories {
+        font-size: 15px;
     }
 }
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
     .heading-content {
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
     .nav-button-services, .nav-button-gallery, .nav-button-contact {
-        padding: 5px 10px;
-        font-size: 22px;
+        font-size: 15px;
     }
     .services {
-        width: 130%;
-        margin-left: -20%;
+        margin: 0 auto;
     }
     .nav-button-home {
         padding: 5px 10px;
-        font-size: 25px;
+        font-size: 15px;
+    }
+    .item, .price, .categories {
+        font-size: 15px;
     }
 }
 
