@@ -144,3 +144,126 @@ footer {
     top: 0;
     right: 0;
 }
+
+@media screen and (max-width: 399px) {
+    .heading-content {
+        font-size: 0.4rem;
+    }
+    .nav-button-services, .nav-button-gallery, .nav-button-contact {
+        padding: 5px 10px;
+        font-size: 15px;
+    }
+    .services {
+        margin-left: -20%;
+    }
+    .nav-button-home {
+        padding: 5px 10px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 576px) {
+    .heading-content {
+        font-size: 0.5rem;
+    }
+    .nav-button-services, .nav-button-gallery, .nav-button-contact {
+        padding: 5px 10px;
+        font-size: 15px;
+    }
+    .services {
+        margin-left: -20%;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .heading-content {
+        font-size: 1.25rem;
+    }
+    .nav-button-services, .nav-button-gallery, .nav-button-contact {
+        padding: 5px 10px;
+        font-size: 22px;
+    }
+    .services {
+        width: 130%;
+        margin-left: -20%;
+    }
+    .nav-button-home {
+        padding: 5px 10px;
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .heading-content {
+        font-size: 1.5rem;
+    }
+    .nav-button-services, .nav-button-gallery, .nav-button-contact {
+        padding: 5px 10px;
+        font-size: 35px;
+    }
+    .services {
+        width: 130%;
+        margin-left: -20%;
+        overflow-y: scroll;
+        max-height: 400px;
+    }
+    .item, .price, .categories {
+        font-size: 30px;
+    }
+    .nav-button-home {
+        padding: 5px 10px;
+        font-size: 35px;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    .heading-content {
+        font-size: 1.3rem;
+    }
+    .nav-button-services, .nav-button-gallery, .nav-button-contact {
+        padding: 10px 20px;
+        font-size: 40px;
+    }
+    .services {
+        width: 130%;
+        margin-left: -20%;
+        overflow-y: scroll;
+        max-height: 500px;
+    }
+    .item, .price, .categories {
+        font-size: 25px;
+    }
+    .nav-button-home {
+        padding: 10px 20px;
+        font-size: 40px;
+    }
+    .contact {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-width: 1441px) {
+    .heading-content {
+        font-size: 2rem;
+    }
+    .nav-button-services, .nav-button-gallery, .nav-button-contact {
+        padding: 10px 20px;
+        font-size: 45px;
+    }
+    .services {
+        width: 130%;
+        margin-left: -20%;
+        overflow-y: scroll;
+        max-height: 600px;
+    }
+    .item, .price, .categories {
+        font-size: 45px;
+    }
+    .nav-button-home {
+        padding: 10px 20px;
+        font-size: 40px;
+    }
+    .contact {
+        font-size: 25px;
+    }
+}
