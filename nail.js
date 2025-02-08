@@ -53,8 +53,7 @@ languageButton.addEventListener('click', function() {
 
     //Change the language of the contact
     const contact = `
-        <div class = "menu-contact">
-        </div>
+        <div class = "menu-contact"></div>
     `
    
     document.querySelector('.calendar-container').insertAdjacentHTML('beforebegin', contact);
@@ -169,18 +168,6 @@ const servicesMenu = {
 
 
 document.body.appendChild(galleryContainer);
-//Add the information of the contact
-const information = {
-    "vietnamese": {
-        'Địa chỉ': '216 Huỳnh Tấn Phát, Khuê Trung, Cẩm Lệ, Đà Nẵng',
-        'Số điện thoại': '090-655-8858',
-    },
-
-    "english": {
-        'Address': '216 Huynh Tan Phat, Khue Trung, Cam Le, Đa Nang',
-        'Phone': '090-655-88-58',
-        }
-    }
 
 
 // Create the menu of the website
