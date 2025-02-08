@@ -52,21 +52,8 @@ languageButton.addEventListener('click', function() {
     targetElement.insertAdjacentHTML('afterend', services);
 
     //Change the language of the contact
-    let contactInformation = "";
-
-    if (document.querySelector('.menu-contact')) {
-        document.querySelector('.menu-contact').textContent = ' ';
-    } 
-
-    for (const key in information[lang]) {
-        contactInformation += `<div class="contact-info">${key}: ${information[lang][key]}</div>`;
-    }
-
-    const contactTitle = language[lang].contact;
     const contact = `
         <div class = "menu-contact">
-            <h2 class="contact-menu-title">${contactTitle}</h2>
-                ${contactInformation}
         </div>
     `
    
