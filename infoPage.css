@@ -4,6 +4,11 @@ body {
     background-repeat: no-repeat;
     background-attachment:fixed;
 }
+.container {
+    background-color: rgb(53, 65, 102);
+    opacity: 0.8;
+    font-size: 2vw;
+}
 
 .subtitle {
     position: absolute;
@@ -18,17 +23,18 @@ body {
 
 button {
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 2vw;
     background-color: #404b6b;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     z-index: 100;
+    width: 11vw;
 }
 
 .container {
-    margin-top: 10%;
+    margin-top: 20%;
     color: white;
 }
 
@@ -36,10 +42,9 @@ button {
     max-width: 18vw;
     max-height: 18vh;
     border-radius: 100%;
+
 }
 .info {
-    background-color: rgb(66, 67, 110);
-    opacity: 0.8;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -49,8 +54,6 @@ button {
 
 .education {
     margin-top: 2%;
-    background-color: rgb(68, 110, 112);
-    opacity: 0.8;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -59,20 +62,21 @@ button {
 }
 
 .education img {
-    width: 18vw;
-    height: 18vh;
+    max-width: 18vw;
+    max-height: 18vh;
     border-radius: 100%;
+
 }
 
 .skills {
     margin-top: 2%;
-    background-color: rgb(203, 130, 88);
-    opacity: 0.8;
     text-align: center;
 }
 
 .skills img {
-    width: 6vw;
-    height: 6vh;
+    max-width: 6vw;
+    max-height: 6vh;
     border-radius: 100%;
+    display: inline-block;
+    margin: 0 10px;
 }

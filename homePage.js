@@ -1,6 +1,6 @@
 // Class Container
 const title = document.querySelector('.title');
-let titleText = ['student', 'web developer', 'freelancer', 'designer'];
+let titleText = ['student', 'developer', 'freelancer', 'designer'];
 
 let index = 0;
 function updateTitle() {
