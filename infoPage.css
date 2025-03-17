@@ -1,0 +1,78 @@
+body {
+    background-image: url(background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+
+.subtitle {
+    position: absolute;
+    top: 5vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    z-index: 100;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #404b6b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.container {
+    margin-top: 10%;
+    color: white;
+}
+
+.info img {
+    max-width: 18vw;
+    max-height: 18vh;
+    border-radius: 100%;
+}
+.info {
+    background-color: rgb(66, 67, 110);
+    opacity: 0.8;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.education {
+    margin-top: 2%;
+    background-color: rgb(68, 110, 112);
+    opacity: 0.8;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.education img {
+    width: 18vw;
+    height: 18vh;
+    border-radius: 100%;
+}
+
+.skills {
+    margin-top: 2%;
+    background-color: rgb(203, 130, 88);
+    opacity: 0.8;
+    text-align: center;
+}
+
+.skills img {
+    width: 6vw;
+    height: 6vh;
+    border-radius: 100%;
+}
