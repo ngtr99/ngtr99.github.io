@@ -6,14 +6,15 @@ body {
 }
 
 .subtitle {
-    position: absolute;
-    top: 5vh;
-    left: 50%;
-    transform: translate(-50%, -50%);
     color: white;
     font-size: 24px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 10px;
 }
 
 button {
@@ -25,18 +26,18 @@ button {
     border-radius: 5px;
     cursor: pointer;
     z-index: 100;
-    width: 11vw;
+    max-width: 100%;
 }
 
+
 .contact {
-    position: absolute;
-    top: 30vh;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin-top: 10%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
     color: white;
     font-size: 20px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    z-index: 100;
 }
 
 img {

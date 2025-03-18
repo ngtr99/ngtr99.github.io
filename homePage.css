@@ -33,24 +33,33 @@ img {
     margin-left: 70%;
     transform: translate(-50%, -50%);
     text-align: center;
+    width: 30%;
 }
 
 button {
     background-color: #4369b5;
     border: none;
     color: white;
-    padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    margin: 4px 2px;
+    width: 100%;
+    margin-top: 10px;
     cursor: pointer;
-    width: 11vw;
     border-radius: 5px;
+    align-items: center; 
+    font-size: 1.5em;
 }
 
 .subtitle {
-    display: flex;
+    position: fixed;
     flex-direction: column;
-    align-items: center;
+    align-items: center; 
+    width: 100%;
+}
+
+.title {
+    color: white;
+    margin-bottom: 20px;
+    width: 100%;
 }
