@@ -1,0 +1,49 @@
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    z-index: -90;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.container {
+    position: absolute;
+    top: 50%;
+    margin-left: 70%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 30%;
+}
+
+button {
+    background-color: #4369b5;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    align-items: center; 
+    font-size: 1.5em;
+}
+
+.subtitle {
+    position: fixed;
+    flex-direction: column;
+    align-items: center; 
+    width: 100%;
+}
+
+.title {
+    color: white;
+    margin-bottom: 20px;
+    width: 100%;
+}

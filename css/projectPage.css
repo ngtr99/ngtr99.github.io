@@ -1,0 +1,62 @@
+body {
+    background-image: url(../images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+
+
+.subtitle {
+    color: white;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 2vw;
+    background-color: #404b6b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 100;
+    max-width: 100%;
+}
+
+
+img:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.project {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+.project-title {
+    background-color: rgb(49, 55, 97);
+    opacity: 0.8;
+    color: white;
+    font-size: 1.5vw;
+    border-radius: 10px;
+    text-align: center;
+    width: 30vw;
+    max-height: 25vw;;
+}
+
+.project-title img {
+    height: 50%;
+    margin-top: 5%;
+    width: 80%;
+}
