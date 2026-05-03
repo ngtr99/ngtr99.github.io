@@ -3,24 +3,183 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/homePage.css">
-    <title>Home Page</title>
+    <title>Electrical Engineering Student - Internship Portfolio</title>
+    <link rel="stylesheet" href="../css/portfolio.css">
 </head>
 <body>
-    <video autoplay muted loop>
-        <source src="../images/background.mp4" type="video/mp4">
-    </video>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home" data-section="home" class="active">Home</a></li>
+                <li><a href="#about" data-section="about">About</a></li>
+                <li><a href="#projects" data-section="projects">Projects</a></li>
+                <li><a href="#contact" data-section="contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
-    <div class="container">
-        <h1 class="title"></h1>
-        <p class="subtitle">
-            <button class="button" onclick="window.location.href='../html/infoPage.html'">About</button>
-            <button class="button" onclick="window.location.href='../html/projectPage.html'">Project</button>
-            <button class="button" onclick="window.location.href='../html/contactPage.html'">Contact</button>
-        </p>
-    </div>
+    <!-- Home Section -->
+    <section id="home" class="section active">
+        <div class="container">
+            <div class="hero">
+                <div class="hero-content">
+                    <h1>Electrical Engineering Student</h1>
+                    <p>Building hardware and software solutions | Seeking internship opportunities in embedded systems, hardware design & software engineering</p>
 
+                    <div class="cta-buttons">
+                        <button type="button" class="btn btn-primary" data-section="projects">View My Work</button>
+                        <button type="button" class="btn btn-secondary" data-section="contact">Contact Me</button>
+                    </div>
 
+                    <div class="tech-stack">
+                        <span class="tech-badge">Embedded Systems</span>
+                        <span class="tech-badge">C/C++</span>
+                        <span class="tech-badge">VHDL</span>
+                        <span class="tech-badge">PCB Design</span>
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">Arduino/STM32</span>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div style="font-size: 5rem;">🎓</div>
+                </div>
+            </div>
+
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-number">6</div>
+                    <div class="stat-label">Featured Projects</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">6+</div>
+                    <div class="stat-label">Programming Languages</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">4+</div>
+                    <div class="stat-label">Design Tools</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-grid">
+                <div class="about-content">
+                    <p>I'm an Electrical Engineering student passionate about bridging hardware and software. Through hands-on projects and coursework, I've developed strong skills in circuit design, embedded systems programming, and digital design.</p>
+
+                    <p>My experience combines practical hardware work (PCB design, microcontroller programming) with software development, allowing me to tackle complex problems from both perspectives. I'm eager to apply these skills in a professional internship environment.</p>
+
+                    <p>I'm a quick learner who thrives on challenges, collaborates well with teams, and is excited about contributing to innovative projects in embedded systems, firmware development, or hardware design.</p>
+
+                    <div class="skills-section">
+                        <div class="skills-category">
+                            <h3>Hardware & Circuits</h3>
+                            <div class="skills-list">
+                                <div class="skill-item">Circuit Design & Analysis</div>
+                                <div class="skill-item">PCB Layout (KiCAD, Eagle)</div>
+                                <div class="skill-item">VHDL/Verilog</div>
+                                <div class="skill-item">FPGA Programming</div>
+                                <div class="skill-item">Signal Integrity</div>
+                                <div class="skill-item">Power Distribution</div>
+                            </div>
+                        </div>
+
+                        <div class="skills-category">
+                            <h3>Embedded & Software</h3>
+                            <div class="skills-list">
+                                <div class="skill-item">C/C++</div>
+                                <div class="skill-item">Python</div>
+                                <div class="skill-item">Microcontrollers (ARM, AVR)</div>
+                                <div class="skill-item">Firmware Development</div>
+                                <div class="skill-item">Real-time Systems</div>
+                                <div class="skill-item">Git & Version Control</div>
+                            </div>
+                        </div>
+
+                        <div class="skills-category">
+                            <h3>Tools & Coursework</h3>
+                            <div class="skills-list">
+                                <div class="skill-item">MATLAB/Simulink</div>
+                                <div class="skill-item">Arduino & STM32</div>
+                                <div class="skill-item">Oscilloscope & Multimeter</div>
+                                <div class="skill-item">Circuit Simulation (LTSpice)</div>
+                                <div class="skill-item">Linux Command Line</div>
+                                <div class="skill-item">Digital Logic Design</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="text-align: center; font-size: 10rem; color: var(--accent-color);">🔬</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="projects-section">Projects</h2>
+
+            <div class="filter-buttons">
+                <button type="button" class="filter-btn active" data-filter="all">All</button>
+                <button type="button" class="filter-btn" data-filter="fullstack">Full stack</button>
+                <button type="button" class="filter-btn" data-filter="frontend">Frontend</button>
+            </div>
+
+            <div class="projects-grid" id="projects-grid">
+                <!-- Projects inserted by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="contact-section">Let's Connect!</h2>
+            <div class="contact-content">
+                <p style="color: var(--text-secondary); font-size: 1.05rem;">I'm actively seeking internship opportunities in embedded systems, firmware development, or hardware design. Feel free to reach out—I'd love to discuss how I can contribute to your team!</p>
+
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div class="contact-text">
+                            <h3>Email</h3>
+                            <p><a href="mailto:your.email@example.com" style="color: var(--accent-color); text-decoration: none;">your.email@example.com</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">🔗</div>
+                        <div class="contact-text">
+                            <h3>LinkedIn</h3>
+                            <p><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" style="color: var(--accent-color); text-decoration: none;">linkedin.com/in/yourprofile</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">🐙</div>
+                        <div class="contact-text">
+                            <h3>GitHub</h3>
+                            <p><a href="https://github.com" target="_blank" rel="noopener noreferrer" style="color: var(--accent-color); text-decoration: none;">github.com/yourprofile</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div class="contact-text">
+                            <h3>Phone</h3>
+                            <p><a href="tel:+1234567890" style="color: var(--accent-color); text-decoration: none;">+1 (234) 567-890</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="../js/portfolio.js" defer></script>
 </body>
-    <script src="../js/homePage.js"></script>
 </html>

@@ -1,61 +1,23 @@
-r<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/projectPage.css">
-    <title>Project</title>
+    <title>Projects</title>
 </head>
 <body>
 
-
     <div class="subtitle">
-        <button class="button" onclick="window.location.href='index.html'">Home</button>
-        <button class="button" onclick="window.location.href='../html/infoPage.html'">About</button>
-        <button class="button" onclick="window.location.href='../html/contactPage.html'">Contact</button>
+        <button type="button" class="button" onclick="window.location.href='index.html'">Home</button>
+        <button type="button" class="button" onclick="window.location.href='infoPage.html'">About</button>
+        <button type="button" class="button" onclick="window.location.href='contactPage.html'">Contact</button>
     </div>
 
-    <div class="project">
-        <div class="project-title">
-            <a href="https://tarot-y300.onrender.com/"><img src="../images/tarot-reading.jpg"></a>
-            <h1>Tarot Reading</h1>
-            <p>Django, Render, HTML, CSS, JavaScript, Python, Database</p>
-        </div>
-
-        <div class="project-title">
-            <a href="https://product-store-1-t0g5.onrender.com/"><img src="../images/product-store.jpg"></a>
-            <h1>Product Store</h1>
-            <p>MongoDB, Express, React, Node, Render</p>
-        </div>
-
-        <div class="project-title">
-            <a href="https://income-tax-calculator-kohl.vercel.app/"><img src="../images/Income-tax-calculator.jpg"></a>
-            <h1>Income Tax Calculator</h1>
-            <p>Vercel, JavaScript, HTML, CSS</p>
-        </div>
-
-        <div class="project-title">
-            <a href="https://thuy-nail-ngtrs-projects.vercel.app/#english"><img src="../images/Thuy-nail.jpg"></a>
-            <h1>Thuy Nail</h1>
-            <p>Vercel, HTML, CSS, JavaScript</p>
-        </div>
-
-        <div class="project-title">
-            <a href="https://tam-coffee-github-io.vercel.app/"><img src="../images/tam-coffee.jpg"></a>
-            <h1>Tam Coffee</h1>
-            <p>Vercel, HTML, CSS, JavaScript</p>
-        </div>
-
-        <div class="project-title">
-            <a href="https://monopoly-game-sooty.vercel.app/"><img src="../images/monopoly.png"></a>
-            <h1>Monopoly Game</h1>
-            <p>Vercel, HTML, CSS, JavaScript</p> 
-        </div>
-
+    <div class="project" id="projects-root" aria-live="polite">
+        <!-- Filled from data/projects.json by projectPage.js -->
     </div>
 
+    <script src="../js/projectPage.js" defer></script>
 </body>
-<footer>
-    <script src="../js/projectPage.js"></script>
-</footer>
 </html>

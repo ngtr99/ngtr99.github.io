@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "type": "fullstack",
+    "course": "Django · Render",
+    "title": "Tarot Reading",
+    "description": "Full-stack tarot reading app with a Django backend, database, and a HTML/CSS/JavaScript front end, deployed on Render.",
+    "tags": ["Django", "Python", "JavaScript", "HTML", "CSS", "Database", "Render"],
+    "link": "https://tarot-y300.onrender.com/",
+    "image": "../images/tarot-reading.jpg"
+  },
+  {
+    "id": 2,
+    "type": "fullstack",
+    "course": "MERN · Render",
+    "title": "Product Store",
+    "description": "E-commerce style product store using MongoDB, Express, React, and Node, with deployment on Render.",
+    "tags": ["MongoDB", "Express", "React", "Node.js", "Render"],
+    "link": "https://product-store-1-t0g5.onrender.com/",
+    "image": "../images/product-store.jpg"
+  },
+  {
+    "id": 3,
+    "type": "frontend",
+    "course": "Vercel · SPA",
+    "title": "Income Tax Calculator",
+    "description": "Client-side income tax calculator with a clean UI, built with JavaScript, HTML, and CSS, hosted on Vercel.",
+    "tags": ["JavaScript", "HTML", "CSS", "Vercel"],
+    "link": "https://income-tax-calculator-kohl.vercel.app/",
+    "image": "../images/Income-tax-calculator.jpg"
+  },
+  {
+    "id": 4,
+    "type": "frontend",
+    "course": "Vercel · Marketing site",
+    "title": "Thuy Nail",
+    "description": "Salon business site with responsive layout and bilingual content, deployed on Vercel.",
+    "tags": ["HTML", "CSS", "JavaScript", "Vercel"],
+    "link": "https://thuy-nail-ngtrs-projects.vercel.app/#english",
+    "image": "../images/Thuy-nail.jpg"
+  },
+  {
+    "id": 5,
+    "type": "frontend",
+    "course": "Vercel · Landing page",
+    "title": "Tam Coffee",
+    "description": "Coffee shop marketing site with responsive design using HTML, CSS, and JavaScript on Vercel.",
+    "tags": ["HTML", "CSS", "JavaScript", "Vercel"],
+    "link": "https://tam-coffee-github-io.vercel.app/",
+    "image": "../images/tam-coffee.jpg"
+  },
+  {
+    "id": 6,
+    "type": "frontend",
+    "course": "Vercel · Game",
+    "title": "Monopoly Game",
+    "description": "Browser-based Monopoly-style board game with HTML, CSS, and JavaScript, hosted on Vercel.",
+    "tags": ["HTML", "CSS", "JavaScript", "Vercel"],
+    "link": "https://monopoly-game-sooty.vercel.app/",
+    "image": "../images/monopoly.png"
+  }
+]
