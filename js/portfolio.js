@@ -23,6 +23,16 @@ function resolveAssetUrl(path) {
     }
 }
 
+/** Safe for use inside double-quoted HTML attributes */
+function escapeAttr(str) {
+    return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/"/g, '&quot;')
+        .replace(/</g, '&lt;')
+        .replace(/\s+/g, ' ')
+        .trim();
+}
+
 function projectCategoryLabel(type) {
     switch (type) {
         case 'fullstack':
@@ -31,6 +41,8 @@ function projectCategoryLabel(type) {
             return 'Frontend';
         case 'electrical':
             return 'Electrical engineering';
+        case 'hardware':
+            return 'Hardware';
         case 'software':
             return 'Software engineering';
         default:
@@ -39,7 +51,7 @@ function projectCategoryLabel(type) {
 }
 
 function projectIcon(type) {
-    if (type === 'electrical') return '⚡';
+    if (type === 'electrical' || type === 'hardware') return '⚡';
     if (type === 'fullstack') return '🧩';
     return '💻';
 }
@@ -71,6 +83,8 @@ function renderProjects(filter = 'all') {
         const visualInner = imgSrc
             ? `<img class="project-card-thumb" src="${imgSrc}" alt="" loading="lazy">`
             : `<span class="project-image-emoji">${icon}</span>`;
+        const longDesc = project.longDescription ? escapeAttr(project.longDescription) : '';
+        const descTitleAttr = longDesc ? ` title="${longDesc}"` : '';
 
         card.innerHTML = `
             <div class="project-image${imgSrc ? ' project-image--thumb' : ''}">${visualInner}</div>
@@ -78,7 +92,7 @@ function renderProjects(filter = 'all') {
                 <div class="project-type">${category}</div>
                 ${project.course ? `<div style="font-size: 0.75rem; color: var(--accent-secondary); margin-bottom: 0.25rem; font-weight: 500;">📚 ${project.course}</div>` : ''}
                 <h3 class="project-title">${project.title}</h3>
-                <p class="project-description">${project.description}</p>
+                <p class="project-description"${descTitleAttr}>${project.description}</p>
                 <div class="project-tags">
                     ${project.tags.map((tag) => `<span class="project-tag">${tag}</span>`).join('')}
                 </div>

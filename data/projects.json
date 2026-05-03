@@ -4,7 +4,7 @@
     "type": "fullstack",
     "course": "Django · Render",
     "title": "Tarot Reading",
-    "description": "Full-stack tarot reading app with a Django backend, database, and a HTML/CSS/JavaScript front end, deployed on Render.",
+    "description": "Full-stack tarot app: Django backend, database, and HTML/CSS/JS front end on Render.",
     "tags": ["Django", "Python", "JavaScript", "HTML", "CSS", "Database", "Render"],
     "link": "https://tarot-y300.onrender.com/",
     "image": "../images/tarot-reading.jpg"
@@ -14,7 +14,7 @@
     "type": "fullstack",
     "course": "MERN · Render",
     "title": "Product Store",
-    "description": "E-commerce style product store using MongoDB, Express, React, and Node, with deployment on Render.",
+    "description": "E-commerce style store with MongoDB, Express, React, and Node.js, deployed on Render.",
     "tags": ["MongoDB", "Express", "React", "Node.js", "Render"],
     "link": "https://product-store-1-t0g5.onrender.com/",
     "image": "../images/product-store.jpg"
@@ -24,7 +24,7 @@
     "type": "frontend",
     "course": "Vercel · SPA",
     "title": "Income Tax Calculator",
-    "description": "Client-side income tax calculator with a clean UI, built with JavaScript, HTML, and CSS, hosted on Vercel.",
+    "description": "Client-side income tax calculator with a clean UI; JavaScript, HTML, and CSS on Vercel.",
     "tags": ["JavaScript", "HTML", "CSS", "Vercel"],
     "link": "https://income-tax-calculator-kohl.vercel.app/",
     "image": "../images/Income-tax-calculator.jpg"
@@ -34,7 +34,7 @@
     "type": "frontend",
     "course": "Vercel · Marketing site",
     "title": "Thuy Nail",
-    "description": "Salon business site with responsive layout and bilingual content, deployed on Vercel.",
+    "description": "Salon business site with responsive layout and bilingual content on Vercel.",
     "tags": ["HTML", "CSS", "JavaScript", "Vercel"],
     "link": "https://thuy-nail-ngtrs-projects.vercel.app/#english",
     "image": "../images/Thuy-nail.jpg"
@@ -44,7 +44,7 @@
     "type": "frontend",
     "course": "Vercel · Landing page",
     "title": "Tam Coffee",
-    "description": "Coffee shop marketing site with responsive design using HTML, CSS, and JavaScript on Vercel.",
+    "description": "Coffee shop marketing site with responsive HTML, CSS, and JavaScript on Vercel.",
     "tags": ["HTML", "CSS", "JavaScript", "Vercel"],
     "link": "https://tam-coffee-github-io.vercel.app/",
     "image": "../images/tam-coffee.jpg"
@@ -54,9 +54,52 @@
     "type": "frontend",
     "course": "Vercel · Game",
     "title": "Monopoly Game",
-    "description": "Browser-based Monopoly-style board game with HTML, CSS, and JavaScript, hosted on Vercel.",
+    "description": "Browser-based Monopoly-style game built with HTML, CSS, and JavaScript on Vercel.",
     "tags": ["HTML", "CSS", "JavaScript", "Vercel"],
     "link": "https://monopoly-game-sooty.vercel.app/",
     "image": "../images/monopoly.png"
+  },
+  {
+    "id": 7,
+    "type": "hardware",
+    "course": "ESP32 · IoT · Vercel",
+    "title": "Smart House",
+    "description": "Home automation on an ESP32 using DHT11 and HC-SR501; rules drive a fan, relays, RGB status, and an OLED on a breadboard. Vercel site explains architecture and logic.",
+    "tags": ["ESP32", "DHT11", "HC-SR501", "Embedded", "IoT", "Vercel"],
+    "link": "https://smart-house-plum.vercel.app/",
+    "image": "../images/smart-house.png"
+  },
+  {
+    "id": 8,
+    "type": "hardware",
+    "course": "Power electronics · ESP32 · Vercel",
+    "title": "Buck–Boost Converters",
+    "description": "ESP32 PWM buck and boost DC-DC converters: MOSFET switching, diode/cap smoothing, divider + ADC for Vout on Serial Plotter and OLED. Vercel site: Overview, Buck, Boost.",
+    "longDescription": "In this project, a buck–boost converter system was designed and implemented using an ESP32 microcontroller to control the switching operation through PWM (Pulse Width Modulation). The buck converter was used to step down the input voltage, while the boost converter was used to step up the voltage, demonstrating both voltage reduction and amplification using switching techniques. The ESP32 generated a high-frequency PWM signal to drive the MOSFET, which acted as a fast electronic switch controlling energy transfer through the inductor. A diode provided a current path during the OFF state, and a capacitor was used to smooth the output voltage. Voltage measurement was performed using a resistor divider and the ESP32’s ADC, allowing real-time monitoring of Vout via Serial Plotter and OLED display. Experimental results showed that the output voltage depends on the PWM duty cycle, confirming the theoretical relationship between duty cycle and voltage conversion. Although some fluctuations were observed due to switching noise and component limitations, the system successfully demonstrated the operating principles of both buck and boost converters.",
+    "tags": ["ESP32", "PWM", "MOSFET", "DC-DC", "ADC", "Vercel"],
+    "link": "https://buck-boost-converters.vercel.app/",
+    "image": "../images/buck-boost-converters.png"
+  },
+  {
+    "id": 9,
+    "type": "hardware",
+    "course": "IoT · Python · ML · Vercel",
+    "title": "Temperature & Humidity Prediction",
+    "description": "IoT stack: ESP32/Arduino + DHT11 for live data, Python for prep and simple trend models, web UI for charts, SSD1306 OLED (I2C). Live site on Vercel.",
+    "longDescription": "This project involves the development of an IoT-based temperature and humidity monitoring and prediction system using an ESP32 microcontroller and Arduino framework for real-time data acquisition. Environmental data was collected through sensors (e.g., DHT11) and processed using Arduino (C/C++), then integrated with a web-based interface for visualization and analysis. On the software side, Python programming was used for data preprocessing, analysis, and implementing basic machine learning models for predicting temperature and humidity trends. The system leverages multiple tools and technologies, including ESP32 development kit, Arduino IDE, I2C communication (SSD1306 OLED display), Serial communication for debugging, web technologies (HTML, CSS, JavaScript), and cloud deployment platforms (e.g., Vercel). This project demonstrates hands-on experience in embedded systems, IoT architecture, data pipelines, and machine learning integration, highlighting the ability to bridge hardware and software for real-time environmental monitoring and predictive analytics.",
+    "tags": ["ESP32", "DHT11", "Python", "ML", "IoT", "Vercel"],
+    "link": "https://temperature-humidity-sensor.vercel.app/",
+    "image": "../images/temperature-humidity-prediction.png"
+  },
+  {
+    "id": 10,
+    "type": "fullstack",
+    "course": "Python · ML · Kaggle · Fly.io",
+    "title": "Bank Customer Churn Prediction",
+    "description": "Churn prediction from a Kaggle-trained model: Python preprocessing/training, backend inference, web form + UI for live class and probability. Deployed on Fly.io.",
+    "longDescription": "Bank Customer Churn Prediction is a machine learning web application that predicts whether a bank customer is likely to leave the bank based on key demographic and account-related features. The dataset used to train the model was sourced from Kaggle, where data preprocessing, feature engineering, and model training were performed. After training, the model was integrated into a backend service and deployed on Fly.io, allowing users to interact with the model through a web interface and receive real-time churn predictions. This application demonstrates an end-to-end AI workflow, from data acquisition and model development to cloud deployment and user-facing inference.",
+    "tags": ["Python", "Machine Learning", "Kaggle", "Fly.io", "API"],
+    "link": "https://bank-customer-churn-prediction.fly.dev/",
+    "image": "../images/bank-churn-prediction.png"
   }
 ]
