@@ -81,7 +81,7 @@ function renderProjects(filter = 'all') {
         const linkAttrs = external ? ' target="_blank" rel="noopener noreferrer"' : '';
         const imgSrc = resolveAssetUrl(project.image);
         const visualInner = imgSrc
-            ? `<img class="project-card-thumb" src="${imgSrc}" alt="" loading="lazy">`
+            ? `<img class="project-card-thumb" src="${imgSrc}" alt="" loading="lazy" decoding="async" fetchpriority="low">`
             : `<span class="project-image-emoji">${icon}</span>`;
         const longDesc = project.longDescription ? escapeAttr(project.longDescription) : '';
         const descTitleAttr = longDesc ? ` title="${longDesc}"` : '';

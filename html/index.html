@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diana Trang</title>
     <link rel="icon" type="image/x-icon" href="../images/profile.jpg">
+    <!-- LCP + hero-only: avoid preloading every project thumb (competes with first paint) -->
+    <link rel="preload" as="image" href="../images/profile.jpg" fetchpriority="high">
+    <link rel="preload" as="image" href="../images/linkedin.png" fetchpriority="high">
+    <link rel="preload" as="image" href="../images/github.png" fetchpriority="high">
     <link rel="stylesheet" href="../css/portfolio.css">
 </head>
 <body>
@@ -33,11 +37,11 @@
                         <p class="hero-connect-label">Connect</p>
                         <div class="hero-social">
                             <a class="hero-social-link" href="https://www.linkedin.com/in/nguyetminhtrang/" target="_blank" rel="noopener noreferrer">
-                                <img src="../images/linkedin.png" width="28" height="28" alt="">
+                                <img src="../images/linkedin.png" width="28" height="28" alt="" decoding="async" fetchpriority="high">
                                 <span>LinkedIn</span>
                             </a>
                             <a class="hero-social-link" href="https://github.com/ngtr99" target="_blank" rel="noopener noreferrer">
-                                <img src="../images/github.png" width="28" height="28" alt="">
+                                <img src="../images/github.png" width="28" height="28" alt="" decoding="async" fetchpriority="high">
                                 <span>GitHub</span>
                             </a>
                         </div>
@@ -70,7 +74,7 @@
                     </div>
                 </div>
                 <div class="hero-image">
-                    <img class="hero-photo" src="../images/profile.jpg" width="320" height="320" alt="Diana Trang" loading="eager" decoding="async">
+                    <img class="hero-photo" src="../images/profile.jpg" width="320" height="320" alt="Diana Trang" loading="eager" decoding="async" fetchpriority="high">
                 </div>
             </div>
 
@@ -107,7 +111,7 @@
 
                 <aside class="about-aside" aria-label="Profile snapshot">
                     <div class="about-aside-visual">
-                        <img class="about-photo" src="../images/profile.jpg" width="320" height="320" alt="Diana Trang" loading="lazy">
+                        <img class="about-photo" src="../images/profile.jpg" width="320" height="320" alt="Diana Trang" loading="lazy" decoding="async" fetchpriority="low">
                         <p class="about-aside-emoji" aria-hidden="true">🔬</p>
                     </div>
                     <div class="about-aside-card">
