@@ -2,4 +2,5 @@ Welcome to my personal corner of the internet — a space where curiosity meets 
 
 https://ngtr99.github.io/
 
-<img width="1428" height="753" alt="image" src="https://github.com/user-attachments/assets/4a760e35-ff5b-49ad-b696-b58b99ed6b3e" />
+<img width="1257" height="834" alt="image" src="https://github.com/user-attachments/assets/38d7e49b-8489-41de-828a-1542d2d61a08" />
+
