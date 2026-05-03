@@ -101,5 +101,16 @@
     "tags": ["Python", "Machine Learning", "Kaggle", "Fly.io", "API"],
     "link": "https://bank-customer-churn-prediction.fly.dev/",
     "image": "../images/bank-churn-prediction.png"
+  },
+  {
+    "id": 11,
+    "type": "fullstack",
+    "course": "MERN · Railway",
+    "title": "House Rental Management",
+    "description": "MERN app for owners to publish and manage listings (add, update, delete) and connect with tenants. React UI with HTML/CSS; hosted on Railway.",
+    "longDescription": "House Rental Management Web Application (MERN Stack). Developed a web application to connect property owners with tenants, allowing owners to add, update, and delete property listings. Implemented frontend functionality using React, HTML, and CSS for a responsive and user-friendly interface. Deployed the application on Railway, ensuring reliable and accessible hosting across devices.",
+    "tags": ["MongoDB", "Express", "React", "Node.js", "Railway", "REST"],
+    "link": "https://house-for-rent-production.up.railway.app/",
+    "image": "../images/house-rental.png"
   }
 ]
