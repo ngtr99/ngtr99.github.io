@@ -145,6 +145,39 @@ nav {
     background: var(--accent-light);
 }
 
+.resume-block {
+    margin-bottom: 1.5rem;
+}
+
+.resume-heading {
+    margin: 0 0 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--text-secondary);
+}
+
+.resume-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem 1rem;
+    align-items: center;
+}
+
+.btn-resume {
+    background: var(--bg-light);
+    color: var(--primary-color);
+    border: 1px solid var(--border-color);
+    font-size: 0.9rem;
+}
+
+.btn-resume:hover {
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+    transform: translateY(-1px);
+}
+
 .hero-stats {
     display: flex;
     gap: 3rem;
@@ -471,6 +504,11 @@ section .container > h2 {
     }
 
     .cta-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .resume-links {
         flex-direction: column;
         width: 100%;
     }
